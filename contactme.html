@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3><u>Contact Me</u></h3>
+    <table cellspacing="5">
+      <tr>
+        <td>Address:</td>
+        <td>Ambattu House, Pallickal P.O, Kattanam, 690503</td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td>abhiktm2003@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Phone Number:</td>
+        <td>7511105360</td>
+      </tr>
+    </table>
+    <br />
+    <form
+      action="mailto:abhiktm2003@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Your Name:</label>
+      <input
+        type="text"
+        name="placeholder"
+        id="placeholder"
+        placeholder="Enter your name"
+      />
+      <br />
+
+      <label for="email">Your Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+      />
+      <br />
+
+      <label for="message">Your Message:</label> <br />
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Enter your message"
+        cols="30"
+        rows="10"
+        required
+      ></textarea>
+      <br />
+
+      <input type="submit" value="Send Email" />
+    </form>
+  </body>
+</html>
